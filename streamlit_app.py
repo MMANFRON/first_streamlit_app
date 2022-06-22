@@ -43,7 +43,6 @@ try:
     #streamlit.dataframe(fruityvice_normalized)
     #except URLError  as e:
     #streamlit.error()
-    
 streamlit.header("The fruit load list contains:")
 #Snowflake-ralated functions
 def get_fruit_load_list():
