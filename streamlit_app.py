@@ -99,7 +99,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - what does this do?
 streamlit.dataframe(fruityvice_normalized)
 
-
+#
 
 #this will not work correctly, but just go wiht it for now
 #my_cur.execute("insert into fruit_load_list values ('from streamlit')")
